@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+numpy
+scapy
+joblib
+tensorflow

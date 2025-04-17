@@ -1,0 +1,5 @@
+# filepath: /workspaces/AURA-TITAN/deception_engine/requirements.txt
+
+# Add required Python packages here
+# Example:
+# requests==2.31.0

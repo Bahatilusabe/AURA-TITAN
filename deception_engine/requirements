@@ -1,0 +1,1 @@
+# Use an official Python runtime as a parent imageFROM python:3.12-slim# Set the working directoryWORKDIR /app# Copy the project filesCOPY ./deception_engine /app# Install dependenciesRUN pip install --no-cache-dir -r requirements.txt# Expose the ports for the honeypot servicesEXPOSE 9090 8080# Run the deception scriptCMD ["python", "deception_script.py"]

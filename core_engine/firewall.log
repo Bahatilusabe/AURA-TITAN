@@ -1,0 +1,22 @@
+Packet: [Source IP: 192.168.1.1, Destination IP: 10.0.0.1, Source Port: 80, Destination Port: 443, Protocol: TCP] Action: ALLOW
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 192.168.1.1, Destination IP: 10.0.0.1, Source Port: 80, Destination Port: 443, Protocol: TCP] Action: ALLOW
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 10.0.0.3, Destination IP: 192.168.1.2, Source Port: 5678, Destination Port: 22, Protocol: TCP] Action: DENY
+Packet: [Source IP: 192.168.1.5, Destination IP: 10.0.0.4, Source Port: 8080, Destination Port: 443, Protocol: TCP] Action: DENY
+Packet: [Source IP: 192.168.1.1, Destination IP: 10.0.0.1, Source Port: 80, Destination Port: 443, Protocol: TCP] Action: ALLOW
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 10.0.0.3, Destination IP: 192.168.1.2, Source Port: 5678, Destination Port: 22, Protocol: TCP] Action: DENY
+Packet: [Source IP: 192.168.1.5, Destination IP: 10.0.0.4, Source Port: 8080, Destination Port: 443, Protocol: TCP] Action: DENY
+Packet: [Source IP: 192.168.1.1, Destination IP: 10.0.0.1, Source Port: 80, Destination Port: 443, Protocol: TCP] Action: ALLOW
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 192.168.2.1, Destination IP: 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP] Action: DENY
+Packet: [Source IP: 10.0.0.3, Destination IP: 192.168.1.2, Source Port: 5678, Destination Port: 22, Protocol: TCP] Action: DENY
+Packet: [Source IP: 192.168.1.5, Destination IP: 10.0.0.4, Source Port: 8080, Destination Port: 443, Protocol: TCP] Action: DENY
+[2025-04-05 11:41:59] Packet: 192.168.1.1 -> 10.0.0.1, Source Port: 80, Destination Port: 443, Protocol: TCP, Action: ALLOW
+[2025-04-05 11:41:59] Packet: 192.168.2.1 -> 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP, Action: DENY, Reason: Matched pattern: malicious
+[2025-04-05 11:41:59] Packet: 192.168.2.1 -> 10.0.0.2, Source Port: 1234, Destination Port: 80, Protocol: UDP, Action: DENY
+[2025-04-05 11:41:59] Packet: 10.0.0.3 -> 192.168.1.2, Source Port: 5678, Destination Port: 22, Protocol: TCP, Action: DENY
+[2025-04-05 11:41:59] Packet: 192.168.1.5 -> 10.0.0.4, Source Port: 8080, Destination Port: 443, Protocol: TCP, Action: DENY

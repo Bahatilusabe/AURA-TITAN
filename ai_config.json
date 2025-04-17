@@ -1,0 +1,5 @@
+{
+    "anomaly_threshold": -0.5,
+    "threat_threshold": 0.8,
+    "alert_email": "admin@example.com"
+}
